@@ -18,7 +18,7 @@ from bottle import route, run
 from bottle import template
 import time 
 import requests
-import cv2
+
 import operator
 import numpy as np
 # Import library to display results
