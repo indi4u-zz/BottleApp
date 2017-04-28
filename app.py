@@ -193,8 +193,7 @@ def upload():
 
 
 # In[10]:
-
-run(host='localhost', port=8080, debug=True)
+#run(host='localhost', port=8080, debug=True)
 
 
 # In[12]:
@@ -293,94 +292,4 @@ def spellcheckpost():
     
 
     return(template('spellcheck.tpl',opstr = s))
-
-
-# In[ ]:
-
-run(host='localhost', port=8080, debug=True)
-
-
-# In[116]:
-
-def upload():
-    upload = request.files.get('upload')
-    name, ext = os.path.splitext(upload.filename)
-    if ext not in ('.png', '.jpg', '.jpeg'):
-        return "File extension not allowed."
-        
-    save_path = "/tmp/upload"
-    if not os.path.exists(save_path):
-        os.makedirs(save_path)
-    
-    p = os.path.join(os.getcwd(),"tmp/upload/", upload.filename)
-        
-    if(os.path.exists(p)) :
-        os.remove(p)
-    
-    p = os.path.join(os.getcwd(),"tmp/upload/", upload.filename)
-    upload.save(p)
-       
-                         
-    with open( p, 'r' ) as f:
-        data = f.read()
-   
-    # Computer Vision parameters
-    params = { 'visualFeatures' : 'Color,Categories,Faces,Description'} 
-
-    headers = {}
-    headers['Ocp-Apim-Subscription-Key'] = _key
-    #headers['Content-Type'] = 'application/json' 
-    headers['Content-Type'] = 'application/octet-stream'
-    json = None
-    #json = { 'url': urlImage } 
-    #data = None
-    res = processRequest( json, data, headers, params)
-    print(res)
-       
-    if res is not None: 
-        datadic = { 'category' : res['categories'][0]['name']  , 'description': res['description']['captions'][0]['text'] ,
-                   'tags':  res['description']['tags'][:5]}
-        print(datadic)
-        return template('vision.tpl',datadic=datadic, img=file_path )  
- 
-
-
-# In[115]:
-
-dict = {'category' : res['categories'][0]['name']  , 'description': res['description']['captions'][0]['text'] , 'tags':  res['description']['tags'][:5] }
-
-
-# In[92]:
-
-res = upload()
-
-
-# In[95]:
-
-type(res)
-
-
-# In[96]:
-
-res
-
-
-# In[104]:
-
-res['description']['captions'][0]['text']
-
-
-# In[106]:
-
-res['categories'][0]['name']
-
-
-# In[112]:
-
-type(res['description']['tags'])
-
-
-# In[114]:
-
-res['description']['tags'][:5]
 
