@@ -22,7 +22,6 @@ import requests
 import operator
 import numpy as np
 # Import library to display results
-import matplotlib.pyplot as plt
 from bottle import request
 from bottle import static_file,get
 import urllib

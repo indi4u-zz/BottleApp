@@ -4,8 +4,7 @@ bottle
 wave
 requests
 numpy
-matplotlib
 uuid
-Tkinter
+
 
 
