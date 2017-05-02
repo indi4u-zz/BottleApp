@@ -38,24 +38,22 @@
 <section id="content">
     
 <header>
-    
-	<h1>		
-         Computer Vision API
-	</h1>
+    <h1>	COMPUTER VISION API	</h1>
+     <h2 style ="line-height: 25px ;width : 700px"> The Computer Vision API  cab be used to distill actionable information from images.        
+      One of the biggest things that the Computer Vision API does is tag and categorize an image based on what it can identify inside that image.
+
+     </h2>
 </header>
  <div id="our-work">
-  <h1>
-    We have used Computer Vision API to analyze an image and output feature analysis of the image uploaded. 
-    </h1>
+ 
   
    <div id="main-wrap">
      <div id="leftside">
 <div id="details">
    
-  <form action="/vision/show" method="post" enctype="multipart/form-data">
-   <h1>Demo : </h1>
-  
- <h1> Select a file: <input type="file" name="upload" id="imgInput" />  <input type="submit" value="Start upload" /> </h1>
+<form action="/vision/show" method="post" enctype="multipart/form-data">
+     
+<h2> Select a file: <input type="file" name="upload" id="imgInput" />  <input type="submit" value="Start upload" /> </h2>
  
 </form>
 </div>

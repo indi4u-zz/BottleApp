@@ -24,15 +24,9 @@
 <section id="content">
     
 <header>
-    
-    
-	<h1>		
-		MICROSOFT COGNITIVE SERVICES DEMO
+	<h1> MICROSOFT COGNITIVE SERVICES </h1>
 		</BR>
-		</BR>
-		Build powerful intelligence into your applications to enable natural and contextual interactions.
-	</h1>
-
+        		<h2 style ="line-height: 25px; width : 700px"> Cognitive Services are a set of Machine learning algorithms Microsoft has developed to solve problems in AI.They are packaged into discrete components which can be integrated into the code by the developers. </h2>
    
 </header>
        
