@@ -38,9 +38,9 @@
        
      <div id="our-work">
     <ul>
-<li><a href="http://localhost:8080/vision"><img src="/static/img/computer_vision.jpg"  alt="project-1"><div class="overlay"><summary><h2>Computer Vision API</h2><h3>Computer Vision API</h3></summary><div class="loves"><span></span></div></div></a></li>
-<li><a href="http://localhost:8080/tts"><img src="/static/img/speech.jpg" alt="Speech"><div class="overlay"><summary><h2>Speech Recognition</h2><h3>Speech Recognition</h3></summary><div class="loves"><span></span></div></div></a></li>
-<li><a href="http://localhost:8080/spellcheck"><img src="/static/img/language.jpg" alt="Pyaari"><div class="overlay"><summary><h2>Language API</h2><h3>Language API</h3></summary><div class="loves"><span></span></div></div></a></li>
+<li><a href="./vision"><img src="/static/img/computer_vision.jpg"  alt="project-1"><div class="overlay"><summary><h2>Computer Vision API</h2><h3>Computer Vision API</h3></summary><div class="loves"><span></span></div></div></a></li>
+<li><a href="./tts"><img src="/static/img/speech.jpg" alt="Speech"><div class="overlay"><summary><h2>Speech Recognition</h2><h3>Speech Recognition</h3></summary><div class="loves"><span></span></div></div></a></li>
+<li><a href="./spellcheck"><img src="/static/img/language.jpg" alt="Pyaari"><div class="overlay"><summary><h2>Language API</h2><h3>Language API</h3></summary><div class="loves"><span></span></div></div></a></li>
 <li><a href="project-detail-page.html"><img src="/static/img/face.png" alt="Pyaari"><div class="overlay"><summary><h2>Face API</h2><h3>Face API </h3></summary><div class="loves"><span></span></div></div></a></li>
 <br>
 </ul>
