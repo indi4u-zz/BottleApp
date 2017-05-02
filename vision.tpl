@@ -21,8 +21,7 @@
     <script src="../static/js/app.js"></script>    
     <script type="text/javascript">
       $(document).ready(function() {    
-        v = '{{img}}'
-        alert(v)
+        v = '{{img}}'        
        url = window.location.href ;
         
       if(url.endsWith("show")){
