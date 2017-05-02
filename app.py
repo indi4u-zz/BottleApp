@@ -292,3 +292,4 @@ def spellcheckpost():
 
     return(template('spellcheck.tpl',opstr = s))
 
+run(host='localhost', port=5000, debug=True)
