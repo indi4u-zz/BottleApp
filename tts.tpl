@@ -19,10 +19,7 @@
     <script src="static/js/pyaari-main.1.0.js"></script>
     <script src="static/js/pyaari-menu.1.0.js"></script>
      <script src="  static/js/speechToText.js" type="text/javascript"></script>
-    <script src="static/js/speech.1.0.0.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      val = '{{dict.values()[4]}}' ;      
-    </script>
+    <script src="static/js/speech.1.0.0.js" type="text/javascript"></script>    
 </head>
 <body>
 <div id="container" style="left: 0px;">
