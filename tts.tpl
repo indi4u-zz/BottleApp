@@ -6,7 +6,7 @@
     <!-- Meta info -->
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Vision API</title>
+    <title>Microsoft Cognitve Services</title>
     <meta content="" name="description">
     <meta name="author" content="">
     <meta name="format-detection" content="">
@@ -25,9 +25,11 @@
 <div id="container" style="left: 0px;">
 <section id="content">    
 <header>    
-  <h1>    
-        Speech API 
-  </h1>
+  <h1> Bing Speech API   </h1>
+   <h2 style ="line-height: 25px ;width : 700px">  
+   The Bing Speech API has two components.A speech recognition API for converting spoken words to text. 
+   And a text to speech API for converting text into spoken words.
+   </h2>
 </header>
 
 
@@ -36,10 +38,12 @@
  
     <div id="main-wrap">
      <div id="leftside">
-      <h1>Microsoft Cognitive Services : Text To Speech </h1>
+      <h2>Text To Speech </h2>
+      <br>
       <br>
         <form action="/tts" method="post" enctype="multipart/form-data">
-        <h3> Enter text : <input type="text" name="t"/></h3>
+        <h2> Enter text : <br><br><textarea name="t" style='width:400px;height:200px;padding: 20px'> </textarea></h2>
+        <br>
         <br>
         <input type="submit" value="Generate Speech" />
         <br>
@@ -49,7 +53,7 @@
 
     <div id="rightside">
 
-    <h1>Microsoft Cognitive Services : Speech To Text</h1>
+    <h2>Speech To Text</h2>
     <br>
 
     <button onclick="start()">Start Talking!</button>  
