@@ -25,7 +25,10 @@ function clearText() {
 }
 
 function setText(text) {
-    document.getElementById("output").value += text;
+    text = text.slice(1, -1);
+    t = JSON.parse(text)
+    display = t['display']
+    document.getElementById("output").value += display;
 }
 
 function start() {
