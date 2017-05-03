@@ -5,7 +5,6 @@ wave
 requests
 numpy
 uuid
-portaudio
 
 
 
