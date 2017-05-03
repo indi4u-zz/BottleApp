@@ -210,7 +210,7 @@ def tts():
     bing = BingVoice(BING_KEY)
     data = bing.synthesize(text)
 
-    pa = pyaudio.PyAudio
+    pa = pyaudio.PyAudio()
 	#pa.get_default_input_device_info()
     stream = pa.open(format=pyaudio.paInt16,
                      channels=1,
