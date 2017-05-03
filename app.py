@@ -210,7 +210,8 @@ def tts():
     bing = BingVoice(BING_KEY)
     data = bing.synthesize(text)
 
-    pa = pyaudio.PyAudio()
+    pa = pyaudio.PyAudio
+	#pa.get_default_input_device_info()
     stream = pa.open(format=pyaudio.paInt16,
                      channels=1,
                      rate=16000,
@@ -238,7 +239,10 @@ def tts():
 
 @route('/tts')
 def tts():      
-    return(template('tts.tpl'))
+	pa = pyaudio.PyAudio();
+	x =  pa.get_device_count()
+
+	return(template('tts.tpl',x=x ));
 
 
 # In[14]:

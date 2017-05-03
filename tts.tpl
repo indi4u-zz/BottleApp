@@ -42,7 +42,7 @@
       <br>
       <br>
         <form action="/tts" method="post" enctype="multipart/form-data">
-        <h2> Enter text : <br><br><textarea name="t" style='width:400px;height:200px;padding: 20px'> </textarea></h2>
+        <h2> Enter text : <br><br><textarea name="t" style='width:400px;height:200px;padding: 20px'> {{x}}</textarea></h2>
         <br>
         <br>
         <input type="submit" value="Generate Speech" />
