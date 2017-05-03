@@ -6,7 +6,7 @@
     <!-- Meta info -->
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Vision API</title>
+    <title>Microsoft Cognitve Services</title>
     <meta content="" name="description">
     <meta name="author" content="">
     <meta name="format-detection" content="">
