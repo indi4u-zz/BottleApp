@@ -41,5 +41,8 @@
 </div>
 </section>
  </div>
+ <footer>
+     Harman Conneced Services
+ </footer>
 </body>
 </html>

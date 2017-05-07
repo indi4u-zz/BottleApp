@@ -183,8 +183,10 @@ def upload():
     print(res)
        
     if res is not None: 
-        datadic = { 'category' : res['categories'][0]['name']  , 'description': res['description']['captions'][0]['text'] ,
-                   'tags':  res['description']['tags'][:5]}
+        tags =  res['description']['tags'][:5]
+        tags_encoded = [str(tags[x]) for x in range(len(tags))]
+        datadic = { 'Category' : res['categories'][0]['name']  , 'Description': res['description']['captions'][0]['text'] ,
+                   'Tags':  tags_encoded}
         print(datadic)
         
         return template('vision.tpl',datadic=datadic, img="/"+file_path )  
