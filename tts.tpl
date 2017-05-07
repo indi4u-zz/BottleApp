@@ -25,7 +25,7 @@
 <div id="container" style="left: 0px;">
 <section id="content">    
 <header>    
-  <h1> Bing Speech API   </h1>
+  <h1>BING SPEECH API   </h1>
    <h2 style ="line-height: 25px ;width : 700px">  
    The Bing Speech API has two components.A speech recognition API for converting spoken words to text. 
    And a text to speech API for converting text into spoken words.
@@ -45,7 +45,7 @@
         <h2> Enter text : <br><br><textarea name="t" style='width:400px;height:200px;padding: 20px'> {{x}}</textarea></h2>
         <br>
         <br>
-        <input type="submit" value="Generate Speech" />
+        <input type="submit" value="Generate Speech"/>
         <br>
         </form>
       
