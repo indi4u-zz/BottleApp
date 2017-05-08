@@ -27,7 +27,7 @@
 <img src="/static/img/logo2.png" alt="logo" />
     <br> 
 	<h1>BING SPELL CHECK</h1>
-   <h2 style ="line-height: 25px ;width : 700px"> The Spell Check API lets you perform contextual grammar and spell checking.It is a web-based spell-checker that leverages machine learning and statistical machine translation to dynamically train a constantly evolving and highly contextual algorithm. The spell-checker is based on a massive corpus of web searches and documents.
+   <h2> The Spell Check API lets you perform contextual grammar and spell checking.It is a web-based spell-checker that leverages machine learning and statistical machine translation to dynamically train a constantly evolving and highly contextual algorithm. The spell-checker is based on a massive corpus of web searches and documents.
      </h2>
 </header>
 

@@ -28,7 +28,7 @@
 <img src="/static/img/logo2.png" alt="logo" />
     <br>  
   <h1>BING SPEECH API   </h1>
-   <h2 style ="line-height: 25px ;width : 700px">  
+   <h2>  
    The Bing Speech API has two components.A speech recognition API for converting spoken words to text. 
    And a text to speech API for converting text into spoken words.
    </h2>
