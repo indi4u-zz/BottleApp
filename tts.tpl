@@ -56,7 +56,7 @@
     <h2>Speech To Text</h2>
     <br>
 
-    <button onclick="start()">Start Talking!</button>  
+    <button style="padding:5px;" onclick="start()">Speak</button>  
     <br>
     <br>
      <textarea id="output" style='width:400px;height:200px'></textarea>
@@ -67,5 +67,8 @@
 </div>
 </section>
  </div>
+ <footer>
+     © 2017 HARMAN Connected Services. 
+ </footer>
 </body>
 </html>

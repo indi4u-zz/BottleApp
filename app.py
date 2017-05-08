@@ -222,19 +222,7 @@ def tts():
                      frames_per_buffer=CHUNK_SIZE)
 
     stream.write(data)
-    stream.close()
-
-    if len(text) >= 3:
-        wf = wave.open(sys.argv[2], 'wb')
-        wf.setframerate(16000)
-        wf.setnchannels(1)
-        wf.setsampwidth(2)
-
-        wf.writeframes(data)
-        wf.close()
-
-
-    #return template('tts.tpl', info)
+    stream.close()  
 
 
 # In[13]:

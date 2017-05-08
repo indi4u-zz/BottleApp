@@ -42,7 +42,7 @@
 </section>
  </div>
  <footer>
-     Harman Conneced Services
+     © 2017 HARMAN Connected Services. 
  </footer>
 </body>
 </html>

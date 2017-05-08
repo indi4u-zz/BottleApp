@@ -56,5 +56,8 @@
 </div>
 </section>
  </div>
+ <footer>
+     © 2017 HARMAN Connected Services. 
+ </footer>
 </body>
 </html>
