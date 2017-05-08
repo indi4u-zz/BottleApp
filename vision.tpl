@@ -38,6 +38,8 @@
 <section id="content">
     
 <header>
+    <img src="/static/img/logo2.png" alt="logo" />
+    <br>
     <h1>	COMPUTER VISION API	</h1>
      <h2 style ="line-height: 25px ;width : 700px"> The Computer Vision API  can be used to distill actionable information from images.        
       One of the biggest things that the Computer Vision API does is tag and categorize an image based on what it can identify inside that image.

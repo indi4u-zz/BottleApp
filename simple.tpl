@@ -24,6 +24,8 @@
 <section id="content">
     
 <header>
+    <img src="/static/img/logo2.png" alt="logo" />
+    <br>
 	<h1> MICROSOFT COGNITIVE SERVICES </h1>
 		</BR>
         		<h2 style ="line-height: 25px; width : 700px"> Cognitive Services are a set of Machine learning algorithms Microsoft has developed to solve problems in AI.They are packaged into discrete components which can be integrated into the code by the developers. </h2>
