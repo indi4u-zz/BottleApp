@@ -24,7 +24,9 @@
 <section id="content">
     
 <header>
-    <img src="/static/img/logo2.png" alt="logo" />
+    <a href="./edit" >
+<img src="/static/img/logo2.png" alt="logo" /> 
+</a>
     <br>
 	<h1> MICROSOFT COGNITIVE SERVICES </h1>
 		</BR>

@@ -38,7 +38,9 @@
 <section id="content">
     
 <header>
-    <img src="/static/img/logo2.png" alt="logo" />
+   <a href="./edit" >
+<img src="/static/img/logo2.png" alt="logo" /> 
+</a>
     <br>
     <h1>	COMPUTER VISION API	</h1>
      <h2> The Computer Vision API  can be used to distill actionable information from images.        
